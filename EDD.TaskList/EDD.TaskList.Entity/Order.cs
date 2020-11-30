@@ -2,7 +2,7 @@
 
 namespace EDD.TaskList.Entity
 {
-    public class Class1
+    public class Order: BaseEntity
     {
     }
 }

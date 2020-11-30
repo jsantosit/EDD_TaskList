@@ -2,7 +2,7 @@
 
 namespace EDD.TaskList.Service
 {
-    public class Class1
+    public class CustomerService
     {
     }
 }
