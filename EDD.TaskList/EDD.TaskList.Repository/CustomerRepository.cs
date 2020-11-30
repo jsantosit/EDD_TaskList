@@ -8,7 +8,7 @@ using Microsoft.Extensions.Configuration;
 
 namespace EDD.TaskList.Repository
 {
-    public class CustomerRepository<T> : BaseRepository, IRepository<Customer>
+    public class CustomerRepository<T> : BaseRepository, IRepository<Customer>, ICustomerRepository<IEntity>
     {
         public CustomerRepository(IConfiguration configuration)
         {
