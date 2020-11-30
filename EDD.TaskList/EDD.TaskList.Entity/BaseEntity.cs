@@ -1,7 +1,7 @@
 using System;
 namespace EDD.TaskList.Entity
 {
-    public class BaseEntity
+    public abstract class BaseEntity: IEntity
     {
         public Int64? Id {get; private set; }
 

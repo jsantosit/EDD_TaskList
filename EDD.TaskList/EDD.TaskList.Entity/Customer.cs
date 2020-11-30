@@ -1,7 +1,7 @@
 using System;
 namespace EDD.TaskList.Entity
 {
-    public class Customer
+    public class Customer: BaseEntity, IEntity
     {
         public String Name { get; private set; }
 
